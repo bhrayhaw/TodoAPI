@@ -21,7 +21,11 @@ router.get("/", async (req, res) => {
 
 // Get user by id
 router.get("/:id", (req, res) => {
+  try {
+
+  } catch (error) {
     
+  }
 })
 
 // Add a new user

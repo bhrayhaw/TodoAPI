@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
-const config = require("config")
+const config = require("config");
 
 const userschema = new mongoose.Schema({
   username: {
@@ -15,6 +15,11 @@ const userschema = new mongoose.Schema({
   },
   password: {
     type: String,
+    required: true,
+  },
+  isVerified: {
+    type: Boolean,
+    default: false,
     required: true,
   },
 });
