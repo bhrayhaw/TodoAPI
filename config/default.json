@@ -1,4 +1,7 @@
 {
-    "uri": "mongodb://localhost:27017",
-    "jwtSecret": "Myveryeyesmayjustseeundernineplanet"
+  "uri": "mongodb://localhost:27017",
+  "jwtSecret": "Myveryeyesmayjustseeundernineplanet",
+  "userEmail": "elijahapreko44@gmail.com",
+  "gmailPassword": "bvgb xnvj wnxi wajj",
+  "baseURL": "http://localhost:3306"
 }
